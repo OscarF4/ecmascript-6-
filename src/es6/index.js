@@ -20,3 +20,9 @@ newFunctionES6('Ricardo', 33, 'MX');
 let myName = 'Oscar';
 let lastName = 'Acevedo';
 console.log(`Mi nombre es: ${myName} ${lastName}`);
+
+// Multilinea: Para tener saltos de línea y no escribir "\n"
+//Con los Template Literals viene por defecto el comportamiento
+let lorem = `Hola, esta frase necesita un salto de linea.
+Aquí inicia otra línea.`
+console.log(lorem);
