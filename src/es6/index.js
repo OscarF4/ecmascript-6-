@@ -9,7 +9,7 @@ function newFunction(name, age, country) {
 }
 newFunction();
 
-//ES6
+//ES6: Desde la asignación de los parámetros
 function newFunctionES6(name = 'Oscar', age = 24, country = 'COL') {
     console.log(name, age, country);
 }
