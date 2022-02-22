@@ -26,3 +26,13 @@ console.log(`Mi nombre es: ${myName} ${lastName}`);
 let lorem = `Hola, esta frase necesita un salto de linea.
 Aquí inicia otra línea.`
 console.log(lorem);
+
+//Desestructuración: Con esto, podemos crear en una sola línea varias variables que vengan de un mismo objeto.
+let person = {
+    name: 'Oscar',
+    age: 24,
+    country: 'MX'
+}
+
+let { name, age, country } = person;
+console.log(name, age, country);
