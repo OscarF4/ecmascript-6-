@@ -15,3 +15,8 @@ function newFunctionES6(name = 'Oscar', age = 24, country = 'COL') {
 }
 newFunctionES6();
 newFunctionES6('Ricardo', 33, 'MX');
+
+//Concatenación con Template Strings
+let myName = 'Oscar';
+let lastName = 'Acevedo';
+console.log(`Mi nombre es: ${myName} ${lastName}`);
