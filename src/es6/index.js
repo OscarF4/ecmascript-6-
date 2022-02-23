@@ -104,3 +104,8 @@ class Calculator {
 
 const calc = new Calculator();
 console.log(calc.sumar(2,3));
+
+
+//Modules
+import hello from './module.mjs';
+hello();
