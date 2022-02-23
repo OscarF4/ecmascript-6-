@@ -45,3 +45,14 @@ let team2 = ['Valeria', 'Yessica', 'Camila'];
 let education = ['David', ...team1, ...team2];
 
 console.log(education); // [David, Oscar, Julian...]
+
+//Objetos
+
+let name = 'Oscar';
+let age = 24;
+
+//ES5
+obj = { name: name, age: age };
+objECMA = { name, age }
+//ES6
+console.log(objECMA);
