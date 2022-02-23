@@ -109,3 +109,18 @@ console.log(calc.sumar(2,3));
 //Modules
 import hello from './module.mjs';
 hello();
+
+
+//Function Generators: Caso típico es la secuncia de Fibonacci
+function* helloWorld() {
+    if (true) {
+        yield 'Hello, ';
+    }
+    if (true) {
+        yield 'World';
+    }
+}
+const generatorHello = helloWorld();
+console.log(generatorHello.next().value);
+console.log(generatorHello.next().value);
+console.log(generatorHello.next().value);
